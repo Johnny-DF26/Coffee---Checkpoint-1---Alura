@@ -53,9 +53,6 @@ Os dados sintéticos utilizados foram obtidos do Kaggle: [Global Coffee Health D
 -   **One-Hot Encoding e Padronização**: Utilização de `ColumnTransformer` para aplicar `OneHotEncoder` em colunas categóricas e `StandardScaler` em numéricas.
 -   **Label Encoding**: Transformação da variável alvo `y` para representação numérica.
 
-### 7. Feature Selection
--   **Análise de Multicolinearidade (VIF)**: Avaliação do Variance Inflation Factor (VIF) para identificar e remover features altamente correlacionadas, como `nivel_estresse_Low`, que surgem da codificação One-Hot.
-
 ### 8. Machine Learning (Seleção de Modelo)
 -   **Modelos Testados**:
     -   **Naive Bayes (GaussianNB)**: Implementação e avaliação da acurácia e relatório de classificação.
